@@ -1,7 +1,16 @@
                                                                                 HTML
 
-<div class="wrap">
-    <p>Az Ötös lottó története!!!!!!
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ötös lottó</title>
+    <link rel="stylesheet" href="lottó.css">
+</head>
+<body><div class="wrap">
+    <h1>Az Ötös lottó története!!!!!!</h1>
+    <p>
 
         A génuai rendszerű lottót 1751-ben a császári pátens vezette be az osztrák és cseh örökös tartományokban. Az állam pénzügyi egyensúlyának helyreállítását emlegették indokként,
         de fontos szempont volt az is, hogy az osztrákok és csehek más országok állami kezelésű szerencsejátékaival oltották fogadási szomjukat, amivel idegen,
@@ -11,11 +20,11 @@
         Cataldi gróf 1763-ban Magyarország területére is koncessziót kapott. Az első játékokat Budán és Pozsonyban rendezték, de sokfelé felállítottak szelvénygyűjtőhelyeket.
         Erdély és a Bánát területére 1770-ben egy erdélyi társaságnak adtak koncessziót a "kis lutri" néven elterjedt lottó felállítására, melynek első sorsolását 1770.
         szeptember 2-án tartották. A bevételek egyharmada az államkincstárat, második harmada a körzet út- és vízépítő hatóságait illette meg,és csak a harmadik harmadából részesedhettek
-        a lottótársaság szervezői. Magyarországon azonban a lottó akkor még nem keltett érdeklődést.
+        a lottótársaság szervezői. Magyarországon azonban a lottó akkor még nem keltett érdeklődést.</p>
         
-        Változatai
+    <p> Változatai</p>
         
-        1988. október 29-én először kísérleti jelleggel, majd rendszeres játékként bevezették a hatos lottót. A sorsjegyek árusítását október 7-én kezdték meg,
+    <p> 1988. október 29-én először kísérleti jelleggel, majd rendszeres játékként bevezették a hatos lottót. A sorsjegyek árusítását október 7-én kezdték meg,
         melynek ára megegyezett az ötöslottó akkori árával (10 Ft). A játék struktúrájában a már sikeres külföldi 6+1 sorsolásos metódust és az 5+1-es nyereményosztályt is átvették
         az osztrákoktól. 1-től 45-ig terjedő számhalmazból húznak ki 6 számot és 1 pótszámot. A játékos 45 számból 6 számot játszhat meg, amelyből a pótszám nélkül legalább 3, 
         legfeljebb 6 találat jogosít nyereményre. A pótszámmal 5+1 találatot lehet elérnie annak, akinek 6 megjátszott számából ötöt kihúztak. A Hatoslottó 2007. július 29-én esedékes 
@@ -27,7 +36,7 @@
         A hetente rendezett ikersorsoláson az 1-től 35-ig terjedő számkészletből 7-7 számot húznak ki – kézi, illetve gépi sorsolással.
         A 35 számból hetet lehet bejelölni, de ez a hét szám mindkét aznapi sorsoláson részt vesz. Az nyer, akinek az ikersorsolás bármelyikén legalább 4 találata van.
     </p>
-
+    <img src="img_lottó.jpg" alt="Az ötöslottó logója">
 
     <div class="lottery-nums"></div>
     <div class="lottery-result">Lottózó eredemény: <span></span></div>
@@ -44,6 +53,9 @@
      
 </div>
 
+    
+</body>
+</html>
                                                                                 CSS 
 .wrap {
   padding: 1em;
